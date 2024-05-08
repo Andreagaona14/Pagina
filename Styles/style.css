@@ -70,22 +70,28 @@ header {
 }
 
 .navbar > ul > li{
+    width: 10rem;
     list-style: none;
     font-size: 1rem;
     border: 1px solid #981942;
     color: #981942;
-    border-radius: 10px;
+    border-radius: 30px;
     background-color: #f7d3e8;
     padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .navbar > ul >li > a{
     text-decoration: none;
     color: #981942;
+    text-align: center;
 }
 
 form {
+    height: 4.5rem;
     background-color: #f7d3e8;
     display: flex;
     align-items: center;
@@ -101,6 +107,7 @@ form > select {
 }
 
 form > input {
+   width: 7rem;
     border-radius: 30px;
     margin: 0.5rem;
     background-color: #fff;
@@ -119,9 +126,14 @@ form > img {
 
 .linea-1 {
     border: none;
+    width: 90%;
     height: 2px;
-    background-color: #000;
-    margin: 20px 0;
+    background-color:  #c93986;
+    margin:  auto;
+}
+
+.container-img-text {
+    
 }
 
 /* ? footer */
